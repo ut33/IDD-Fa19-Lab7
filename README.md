@@ -1,6 +1,8 @@
 # Video Doorbell, Lab 7
 
-*A lab report by John Q. Student*
+*A lab report by Vini Tripathii*
+
+### Current suffering from Murphy's Law: My code for the required portion is done and I was working on the creative part of the assignment when my raspberry pi appears to have fried (it is not responding). I borrowed Fei's raspberry pi but it is not responding either. Currently working on trying to get a raspberry pi so I can finish and take video.
 
 ### In This Report
 
