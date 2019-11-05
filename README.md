@@ -12,16 +12,19 @@
 
 ## Part A. HelloYou from the Raspberry Pi
 
-**a. Link to a video of your HelloYou sketch running.**
+**a. Link to a video of your HelloYou sketch running.** 
+https://drive.google.com/file/d/1jbSwtCZGpogygwU5vNl4CIiYhqvLwrnn/view?usp=sharing
 
 ## Part B. Web Camera
 
 **a. Compare `helloYou/server.js` and `IDD-Fa18-Lab7/pictureServer.js`. What elements had to be added or changed to enable the web camera? (Hint: It might be good to know that there is a UNIX command called `diff` that compares files.)**
 
+The node-webcam librarry was added to enable the web camera. In addition, a webcam instance with default parameters was created. The
+takePicture function was then linked to the button "Take a picture" on the web page. 
 **b. Include a video of your working video doorbell**
+https://drive.google.com/file/d/1ZpCR7GdJqNdGZzebPKUrW_bGK91yqFGG/view?usp=sharing
 
 ## Part C. Make it your own
-
-**a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
-
-**b. Upload a video of your working modified project**
+https://drive.google.com/file/d/1b5Fb5-n3sKQH9k25wN2vqZOiGtnmFGUP/view?usp=sharing
+I add an auidble timer (3 quarter notes played in succession, last not light pitch) as a warning for when the photo is being taken. I used the delay attribute of the webcamera to stall the photo process to synchronize with the notes.
+Note: The volume is very soft in the video 
